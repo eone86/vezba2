@@ -51,8 +51,10 @@ header .head nav ul li a {
 header .head nav ul li a:hover {
 	color: #FF895D;
 	border-bottom: 1px solid #FF895D;
+	border-top: 1px solid #FF895D;
 	transition: ease 0.4s;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 
