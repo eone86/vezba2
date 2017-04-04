@@ -1,0 +1,237 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+	background-color: #D5EEFF;
+	position: fixed;
+	width: 100%;
+}
+
+header .head {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header .head img {
+	width: 50px;
+	padding: 5px 0 5px 10px;
+}
+
+header .head nav {
+	float: right;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+header .head nav ul {
+	list-style-type: none;
+}
+
+header .head nav ul li {
+	display: inline;
+	margin-right: 30px;
+}
+
+header .head nav ul li:last-child {
+	margin-right: 0;
+}
+
+header .head nav ul li a {
+	text-decoration: none;
+	color: #005689;
+	font-size: 20px;
+	transition: ease 0.4s;
+}
+
+header .head nav ul li a:hover {
+	color: #FF895D;
+	border-bottom: 1px solid #FF895D;
+	transition: ease 0.4s;
+	padding-bottom: 20px;
+}
+
+
+/*---------- MAIN ----------*/
+
+main {
+	background: url("img/jonatan-pie-232190.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+section {
+	background-color: rgba(0, 124, 185, 0.69);
+}
+
+section .content {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 150px 20px 0 20px;
+	height: 800px;
+}
+
+.content .headline {
+	text-align: center;
+}
+
+.content h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #FF895D;
+	border-top: 5px solid #FF895D;
+	border-bottom: 5px solid #FF895D;
+	display: inline;
+	text-shadow: 1px 1px 15px rgba(65, 65, 65, 0.53);
+}
+
+.content h4 {
+	color: #D5EEFF;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.content nav {
+	position: relative;
+	top: 100px;
+}
+
+.content ul {
+	list-style-type: none;
+}
+
+.content ul li {
+	float: left;
+	display: inline-block;
+	width: 18.3%;
+	margin-right: 5%;
+	border: 1px solid #005689;
+	padding: 0 15px 35px;
+	position: relative;
+	background-color: rgba(213, 238, 255, 0.56);
+	border-radius: 10px;
+	box-shadow: 2px 2px 15px rgba(19, 68, 82, 0.59);
+}
+
+.content ul li:last-child {
+	margin-right: 0;
+}
+
+.content ul li .circle {
+	position: absolute;
+	top: -30px;
+	left: 38%;
+	background-color: #FF895D;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 2px 2px 2px rgba(19, 68, 82, 0.59);
+}
+
+.content ul li .circle i {
+	color: #D5EEFF;
+	font-size: 25px;
+	position: relative;
+	top: 18px;
+}
+
+.content ul li h3 {
+	text-align: center;
+	padding-top: 50px;
+	color: #005689;
+}
+
+.content ul li p {
+	font-size: 20px;
+	padding: 20px 0;
+	color: #005689;
+}
+
+.content ul li a {
+	text-decoration: none;
+	color: #005689;
+	position: absolute;
+	right: 20px;
+}
+
+.content ul li a:hover {
+	color: #FF895D;
+	text-decoration: underline;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+	background-color: #D5EEFF;
+	height: 170px;
+}
+
+footer .foot {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.foot ul {
+	list-style-type: none;
+}
+
+.foot .top>li {
+	display: inline-block;
+	width: 33%;
+	margin: 25px 0;
+	float: left;
+	border-right: 1px solid #005689;
+	text-align: center;
+}
+
+.foot .top>li:nth-child(2) {
+	padding-bottom: 20px;
+}
+
+.foot .top>li:last-child {
+	border-right: none;
+}
+
+.foot .top h3 {
+	font-size: 25px;
+	color: #005689;
+}
+
+.foot .top p {
+	font-size: 18px;
+	font-style: italic;
+	padding-top: 20px;
+	color: #005689;
+}
+
+.foot .top ul {
+	padding-top: 20px;
+}
+
+.foot .top ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.foot .top ul li:last-child {
+	margin-right: 0;
+}
+
+.foot .top ul li a {
+	font-size: 30px;
+	color: #FF895D;
+	transition: ease 0.4s;
+}
+
+.foot .top ul li a:hover {
+	color: #005689;
+	transition: ease 0.4s;
+}
